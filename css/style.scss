@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto';
+$claro: #ccc;
+$escuro: #333;
+$red: #F00;
+
+.banner {
+	width: 100%;
+	height: 500px;
+	background: url(../imgs/2.jpg) center fixed;
+	background-size: cover;
+	margin-top: -25px;
+}
+
+.navbar {
+	border-radius: 0;
+	box-shadow: 0 0 10px $claro;
+	background: #FFF;
+	border: 0;
+
+	.nav li {
+		padding: 10px 5px;
+		border-left: 1px solid $claro;
+		&:last-child {
+			border-right: 1px solid $claro;
+		}
+	}
+}
