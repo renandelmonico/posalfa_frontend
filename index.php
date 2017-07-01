@@ -41,18 +41,20 @@
                     </a>
                 </div>
                 <div class="col-md-9 col-sm-9 text-right">
-                    <i class="fa fa-phone"></i>
-                    0800 1406
+                    <nav>
+                        <i class="fa fa-phone"></i>
+                        0800 1406
 
-                    <a href="http://facebook">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="http://twitter">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="http://instagram">
-                        <i class="fa fa-instagram"></i>
-                    </a>
+                        <a href="http://facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="http://twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="http://instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </nav>
                 </div>
             </div> <!--row-->
         </div> <!--container-->
@@ -110,7 +112,9 @@
 
     </div>
 
-    <main class="container">
+    <div class="clearfix"></div>
+
+    <main>
         <?php
             if (isset($_GET['p'])) {
                 $p = trim($_GET['p']);
